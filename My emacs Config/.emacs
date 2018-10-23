@@ -1,6 +1,7 @@
 (setq inhibit-startup-screen t) ;; to avoid the start up screen
 ;;(menu-bar-mode 0)
 (tool-bar-mode 0)
+(scroll-bar-mode -1)
 (set-default-font "Ubuntu Mono-12")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
