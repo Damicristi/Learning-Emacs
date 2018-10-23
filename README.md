@@ -12,3 +12,8 @@
 sudo rm -r /var/lib/apt/lists/*
 sudo apt-get clean && sudo apt-get update
 ```
+
+- Make a folder writable
+```
+sudo chmod 777 directory_name
+```
