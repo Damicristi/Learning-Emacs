@@ -1,0 +1,143 @@
+{
+    "layout1": {
+        "type": "layout",
+        "pages": [
+            "page1"
+        ],
+        "page1": {
+            "type": "page",
+            "title": "List of stations",
+            "sections": [
+                "section1"
+            ]
+        },
+        "section1": {
+            "type": "section",
+            "title": "Radio",
+            "keys": [
+                "tree"
+            ]
+        }
+    },
+    "tree": {
+        "type": "list",
+        "description": "List of stations",
+        "columns": [
+            {
+                "id": "name",
+                "title": "Title",
+                "type": "string"
+            },
+            {
+                "id": "url",
+                "title": "URL",
+                "type": "string"
+            },
+            {
+                "id": "inc",
+                "title": "Include of list",
+                "type": "boolean"
+            }
+        ],
+        "default": [
+            {
+                "name": "Akustika",
+                "url": "http://ic3.101.ru:8000/c16_34",
+                "inc": true
+            },
+            {
+                "name": "Rock Hits",
+                "url": "http://icecast.radiomaximum.cdnvideo.ru/st25.mp3",
+                "inc": true
+            },
+            {
+                "name": "Hit FM",
+                "url": "http://icecast.radiohitfm.cdnvideo.ru/hit.mp3",
+                "inc": true
+            },
+            {
+                "name": "Chillout",
+                "url": "http://ic7.101.ru:8000/c15_3",
+                "inc": false
+            }
+        ],
+        "value": [
+            {
+                "name": "Rock Hits",
+                "url": "http://icecast.radiomaximum.cdnvideo.ru/st25.mp3",
+                "inc": true
+            },
+            {
+                "name": "Chillout",
+                "url": "http://ic7.101.ru:8000/c15_3",
+                "inc": true
+            },
+            {
+                "name": "BBC Musics",
+                "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p",
+                "inc": true
+            },
+            {
+                "name": "VOA1 The Hits",
+                "url": "http://voa-22.ng.akacast.akamaistream.net/7/48/322034/v1/ibb.akacast.akamaistream.net/voa-22",
+                "inc": true
+            },
+            {
+                "name": "BBC Live Musics",
+                "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_q?s=1540268894&e=1540283294&h=d1a39d75de710cd5bd030131f99068f3",
+                "inc": true
+            },
+            {
+                "name": "BBC World Service",
+                "url": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk",
+                "inc": true
+            },
+            {
+                "name": "Kantipur ",
+                "url": "http://kantipur-stream.softnep.com:7248/;",
+                "inc": true
+            },
+            {
+                "name": "Radio Nepal",
+                "url": "http://www.radionepal.gov.np:40100/stream",
+                "inc": true
+            },
+            {
+                "name": "Ujyaalo Online",
+                "url": "http://stream.zenolive.com/wtuvp08xq1duv",
+                "inc": true
+            },
+            {
+                "name": "VOA ",
+                "url": "http://voa-91.ng.akacast.akamaistream.net/7/913/314276/v1/ibb.akacast.akamaistream.net/voa-91",
+                "inc": true
+            },
+            {
+                "name": "6 minute vocab",
+                "url": "http://stitcher.acast.com/livestitches/9dca859f-a2be-427f-8c86-245545d3d83d/8a0176f168f330be23adc56a6887a0bd.mp3?aid=9dca859f-a2be-427f-8c86-245545d3d83d&chid=0d38e531-e974-413e-be8f-72b0875827d5&ci=4173f69f-61a5-446f-bf13-7462f3f2dffa&range=0-&Expires=1553236267&Signature=lkAXFcVKq1l6SmrL4L4mHvkM8MB3ATkvZvGcrF9rC7bBQHfVAnVT2J5bvfGJpQYnA8gylHXEUATI1wD6uR4LovM6%7EQcJ%7EHp62mEeYJ6xhMFblGuLe7cjT9pQNqyxlvMDYhbzbVmQj14u6nyV84BzGciaRew5CtDNZQZigvhf-753YaAT9cejzJDErv1zLvC2VGE8d5oXeDexq1z60M5xkXpA46TAQr6r8VDyzCNkjRmP7w6bmNnI%7Ec4JKt3PN8JxCHBQeqchywsOUobmlsaTtYB42hXRCGs3Csc2DOT1FRsvY2Qgj6lEj45vUxarbWahra0y%7EkPM29uJ20KXngCOFg__&Key-Pair-Id=APKAJXAFARUOTJQ3BLOQ",
+                "inc": true
+            },
+            {
+                "name": "FOX News Talk",
+                "url": "http://tunein.streamguys1.com/secure-foxnews?key=706315ef91782125ac5496742e2c1792326a060dc1891cff0a7d7aea39c857af",
+                "inc": true
+            },
+            {
+                "name": "The Infinite Monkey Cage",
+                "url": "http://stitcher.acast.com/livestitches/810dc4af-bc20-472a-9be9-7e70e898624e/a75cde2f6833c83f240627089bdc4aeb.mp3?aid=810dc4af-bc20-472a-9be9-7e70e898624e&chid=01318d42-5cb7-4179-9e3e-f3b65828223e&ci=9b9b652d-e4b4-4faf-aa4d-45c13400a405&range=0-&Expires=1553237713&Signature=KHi%7EX%7EGlfweGDfm2nI3ZTv1BGsdJgv1hVkm7LpZotSIwXATsK328QEoKmx24Q%7EdK6WFlMQ9SbANlRwrXQX0YU9BtN8O4Q3%7Ef4-Ih2t0fhKFJ-5aiY%7EAo1eMdCjjg0oMxIp7ZboHnQUw4DV9E7Zc6WJa1hUxVHuGpHajU5HNm1Lz7gz2U-sS0lpPB13UWmCCXJLS7BrUz1O3KrwXvOI54TTJulZvZpyaSeg8RZkcvWStIO2TcPKHhxxlFe-vd94ab-il-MNeVakJmTi0INvIs2qztIWLnWsmCm39umBLrkKpdPAvZMiHwydX%7ETTxUBDx3bvAHMHcadreTUI1VxnxeWA__&Key-Pair-Id=APKAJXAFARUOTJQ3BLOQ",
+                "inc": true
+            },
+            {
+                "name": "BBC Intelligent Speech",
+                "url": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4fm_mf_q?s=1540269117&e=1540283517&h=b5e2fe6410270e11a7a67db52b228684",
+                "inc": true
+            },
+            {
+                "name": "SBS Australia",
+                "url": "http://sbs-ice.streamguys1.com/sbs3",
+                "inc": true
+            }
+        ]
+    },
+    "__md5__": "a18eb3f7a212aa278adcba4ce5511d31"
+}
