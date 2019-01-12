@@ -17,3 +17,9 @@ sudo apt-get clean && sudo apt-get update
 ```
 sudo chmod 777 directory_name
 ```
+
+- To kill local server
+```
+ps -fA | grep python
+kill -9 pid
+```
