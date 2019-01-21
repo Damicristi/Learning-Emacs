@@ -23,3 +23,9 @@ sudo chmod 777 directory_name
 ps -fA | grep python
 kill -9 pid
 ```
+
+- To edit grub permanantly 
+```
+sudo nano etc/default/grub
+sudo update-grub
+```
