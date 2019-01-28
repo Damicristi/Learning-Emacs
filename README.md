@@ -44,14 +44,16 @@ class b(a):
     def __init__(self,x,y):
         self.y = y
         super().__init__(x)
-
-# We can use Base class methods(i.e. functions) by doing this:   
+```
+We can use Base class methods(i.e. functions) by doing this:   
+```
 b(1,2).se(3)
-
-# We can call constructor of Parant class by doing this:
+```
+We can call constructor of Parant class by doing this:
+```
 b(1,2).x
-
-# We can call constructor of Child class by doing this:
+```
+We can call constructor of Child class by doing this:
+```
 b(1,2).y
-
 ```
