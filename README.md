@@ -30,3 +30,28 @@ sudo nano etc/default/grub
 sudo update-grub
 ```
 
+# Python 3 | Preserving Python information
+- Use constructor from Base(i.e. Parant) class in the Child class, along with child's constructor.
+```
+class a:
+    def __init__(self,x):
+        self.x = x
+    
+    def se(self,z):
+        print(z*2)
+        
+class b(a):
+    def __init__(self,x,y):
+        self.y = y
+        super().__init__(x)
+
+# We can use Base class methods(i.e. functions) by doing this:   
+b(1,2).se(3)
+
+# We can call constructor of Parant class by doing this:
+b(1,2).x
+
+# We can call constructor of Child class by doing this:
+b(1,2).y
+
+```
