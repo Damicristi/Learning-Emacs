@@ -45,9 +45,21 @@ class b(a):
         self.y = y
         super().__init__(x)
 ```
+
 We can use Base class methods(i.e. functions) by doing this:   
-```b(1,2).se(3)```
+
+```
+b(1,2).se(3)
+```
+
 We can call constructor of Parant class by doing this:
-```b(1,2).x```
+
+```
+b(1,2).x
+```
+
 We can call constructor of Child class by doing this:
-```b(1,2).y```
+
+```
+b(1,2).y
+```
