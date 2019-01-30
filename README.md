@@ -63,3 +63,13 @@ We can call constructor of Child class by doing this:
 ```
 b(1,2).y
 ```
+
+- Merging two dictionaries in Python 3.x
+
+```
+d1 = {"a":1, "b":2}
+d2 = {"c":3, "d":4}
+d1Ud2 = {**d1, **d2}
+>>> d1Ud2
+{"a":1, "b":2, "c":3, "d":4}
+```
