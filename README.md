@@ -77,3 +77,8 @@ d1Ud2 = {**d1, **d2}
 - Circular Dependencies
 
 I strongly suggest to see "<a href="https://stackoverflow.com/questions/48093653/nameerror-while-calling-the-parent-class-method-from-another-module">NameError while calling the parent class method from another module</a>" for more details.
+
+- Install package from github
+```
+pip install git+https://github.com/titipata/arxivpy
+```
