@@ -30,6 +30,15 @@ sudo nano etc/default/grub
 sudo update-grub
 ```
 
+- To solve readable usb
+```
+$ lsblk
+$ sudo -i
+$ umount /dev/sdb1
+$ mkfs.vfat /dev/sdb1
+```
+
+
 # Python 3 | Preserving Python information
 - Use constructor from Base(i.e. Parant) class in the Child class, along with child's constructor.
 ```
