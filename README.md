@@ -91,3 +91,9 @@ I strongly suggest to see "<a href="https://stackoverflow.com/questions/48093653
 ```
 pip install git+https://github.com/titipata/arxivpy
 ```
+
+# Wordpress
+- Over riding the comments count by Disqus count in wordpress site
+```
+<a href="<?php the_permalink() ?>#disqus_thread">Comments</a>
+```
