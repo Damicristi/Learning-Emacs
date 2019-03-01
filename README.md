@@ -98,7 +98,7 @@ pip install git+https://github.com/titipata/arxivpy
 <a href="<?php the_permalink() ?>#disqus_thread">Comments</a>
 ```
 
-- Dynamic Copyright Date
+- Dynamic copyright date
 ```
-&copy; 2009 – <?php echo date('Y'); ?> PhysicsLog.com
+&copy; 2017 – <?php echo date('Y'); ?> PhysicsLog.com
 ```
