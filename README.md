@@ -109,3 +109,9 @@ pip install git+https://github.com/titipata/arxivpy
 $ sudo chown www-data:www-data /var/www/html/YourWordpressFolder -R
 $ sudo systemctl reload YourWebServer
 ```
+
+- Enable curl php in Ubuntu
+```
+$ sudo apt-get install php-curl
+$ sudo service apache2 restart
+```
