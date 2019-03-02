@@ -102,3 +102,9 @@ pip install git+https://github.com/titipata/arxivpy
 ```
 &copy; 2017 – <?php echo date('Y'); ?> PhysicsLog.com
 ```
+
+- Updating or installing plugin/theme got "to perform the requested action wordpress needs to access your web server. please enter your ftp". Usually get when you install wordpress in localhost or server.
+```
+$ sudo chown www-data:www-data /var/www/html/YourWordpressFolder -R
+$ sudo systemctl reload YourWebServer
+```
