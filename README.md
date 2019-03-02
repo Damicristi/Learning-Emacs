@@ -1,11 +1,11 @@
-# Emacs | Preserving my own emacs information
+# Emacs
 
 [![Damodar's emacs view](https://raw.githubusercontent.com/Damicristi/All-about-Emacs-and-Linux/master/My%20emacs%20Config/emacs.png)](https://physicslog.com "Visit my blog")
 
 - No pdf view in emacs -nw. But works perfectly fine in emacs gui. pdf-tools won't work in emacs -nw i.e. emacs in terminal mode. But you can do view it as text form by doing this M-x doc-view-mode. 
 
 
-# Linux | Preserving linux information
+# Linux
 
 - Fix Various Update Errors In Ubuntu 
 ```
@@ -38,8 +38,8 @@ $ umount /dev/sdb1
 $ mkfs.vfat /dev/sdb1
 ```
 
+# Python 3
 
-# Python 3 | Preserving Python information
 - Use constructor from Base(i.e. Parant) class in the Child class, along with child's constructor.
 ```
 class a:
@@ -93,6 +93,7 @@ pip install git+https://github.com/titipata/arxivpy
 ```
 
 # Wordpress
+
 - Over riding the comments count by Disqus count in wordpress site
 ```
 <a href="<?php the_permalink() ?>#disqus_thread">Comments</a>
