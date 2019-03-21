@@ -115,3 +115,40 @@ $ sudo systemctl reload YourWebServer
 $ sudo apt-get install php-curl
 $ sudo service apache2 restart
 ```
+
+# Google Collab
+
+- View LaTeX in notebook
+```
+from IPython.display import Math, HTML
+display(HTML("<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/"
+               "latest.js?config=default'></script>"))
+
+Math(r'F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} dx')
+```
+
+- Install LaTeX
+```
+!sudo apt-get update
+!sudo apt-get install texlive-full
+!sudo apt install texlive-latex-base 
+!sudo apt install texlive-fonts-extra
+```
+
+- Install [Manim](http://github.com/3b1b/manim/)
+```
+1. Install latex
+2. Install cairo, latex, ffmpeg, and sox by doing these:
+
+!sudo apt-get install ffmpeg
+!sudo apt-get install sox
+!sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
+!python3 -m pip install pyreadline
+!python3 -m pip install pydub
+!python3 -m pip install pycairo
+
+3. Clone Manim library
+
+git clone https://github.com/3b1b/manim.git
+```
+Any issues see this [Manim Tutorial](https://talkingphysics.wordpress.com)
