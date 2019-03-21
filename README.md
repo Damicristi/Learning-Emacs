@@ -171,7 +171,7 @@ Any issues see this [Manim Tutorial](https://talkingphysics.wordpress.com).
 
 - Writing python file from Google collab notebook
 ```
-%%writefile pythonfilename.py
+%%writefile filename.py
 # Write your python code below
 print("Visit PhysicsLog.com")
 ```
@@ -179,10 +179,10 @@ print("Visit PhysicsLog.com")
 - Viewing the working directory
 ```
 !ls
-pythonfilename.py
+filename.py
 ```
 
 - Accessing and run python file
 ```
-!python3 pythonfilename.py
+!python3 filename.py
 ```
