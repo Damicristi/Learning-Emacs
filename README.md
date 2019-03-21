@@ -129,7 +129,6 @@ drive.mount('/content/drive')
 from IPython.display import Math, HTML
 display(HTML("<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/"
                "latest.js?config=default'></script>"))
-
 Math(r'F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} dx')
 ```
 
@@ -141,10 +140,12 @@ Math(r'F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} dx')
 !sudo apt install texlive-fonts-extra
 ```
 
-- Install [Manim](http://github.com/3b1b/manim/)
-1. Install latex
-2. Install cairo, latex, ffmpeg, and sox by doing these:
 
+- Install [Manim](http://github.com/3b1b/manim/)
+
+1. Install latex
+
+2. Install cairo, latex, ffmpeg, and sox by doing these:
 ```
 sudo apt-get install ffmpeg
 sudo apt-get install sox
@@ -156,13 +157,11 @@ pip install -r requirements.txt
 ```
 
 3. Clone Manim library
-
 ```
 git clone https://github.com/3b1b/manim.git
 ```
 
 4. Checking!
-
 ```
 cd manim
 python3 -m manim example_scenes.py SquareToCircle -pl
