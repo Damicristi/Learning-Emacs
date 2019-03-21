@@ -168,3 +168,21 @@ Math(r'F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} dx')
 !python3 -m manim example_scenes.py OpeningManimExample -pl
 ```
 Any issues see this [Manim Tutorial](https://talkingphysics.wordpress.com).
+
+- Writing python file from Google collab notebook
+```
+%%writefile pythonfilename.py
+# Write your python code below
+print("Visit PhysicsLog.com")
+```
+
+- Viewing the working directory
+```
+!ls
+pythonfilename.py
+```
+
+- Accessing and run python file
+```
+!python3 pythonfilename.py
+```
