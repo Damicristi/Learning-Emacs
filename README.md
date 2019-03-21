@@ -140,12 +140,13 @@ Math(r'F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} dx')
 1. Install latex
 2. Install cairo, latex, ffmpeg, and sox by doing these:
 
-!sudo apt-get install ffmpeg
-!sudo apt-get install sox
-!sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
-!python3 -m pip install pyreadline
-!python3 -m pip install pydub
-!python3 -m pip install pycairo
+sudo apt-get install ffmpeg
+sudo apt-get install sox
+sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
+python3 -m pip install pyreadline
+python3 -m pip install pydub
+python3 -m pip install pycairo
+python3 -m pip install -r requirements.txt
 
 3. Clone Manim library
 
