@@ -146,10 +146,16 @@ sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
 python3 -m pip install pyreadline
 python3 -m pip install pydub
 python3 -m pip install pycairo
-python3 -m pip install -r requirements.txt
+pip install -r requirements.txt
 
 3. Clone Manim library
 
 git clone https://github.com/3b1b/manim.git
+
+4. Checking!
+
+cd manim
+python3 -m manim example_scenes.py SquareToCircle -pl
+python3 -m manim example_scenes.py OpeningManimExample -pl
 ```
 Any issues see this [Manim Tutorial](https://talkingphysics.wordpress.com)
