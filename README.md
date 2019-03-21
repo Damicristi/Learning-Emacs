@@ -118,6 +118,12 @@ $ sudo service apache2 restart
 
 # Google Collab
 
+- Accessing file from Google drive
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
 - View LaTeX in notebook
 ```
 from IPython.display import Math, HTML
@@ -158,4 +164,4 @@ cd manim
 python3 -m manim example_scenes.py SquareToCircle -pl
 python3 -m manim example_scenes.py OpeningManimExample -pl
 ```
-Any issues see this [Manim Tutorial](https://talkingphysics.wordpress.com)
+Any issues see this [Manim Tutorial](https://talkingphysics.wordpress.com).
