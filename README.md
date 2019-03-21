@@ -142,7 +142,6 @@ Math(r'F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} dx')
 ```
 
 - Install [Manim](http://github.com/3b1b/manim/)
-
 1. Install latex
 2. Install cairo, latex, ffmpeg, and sox by doing these:
 
