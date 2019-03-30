@@ -6,7 +6,7 @@
 
 # LaTeX
 
--Beamer Tutorial at [here!](https://commands.physicslog.com/latex/beamertutorialkwuensch.pdf)
+- Beamer Tutorial at [here!](https://commands.physicslog.com/latex/beamertutorialkwuensch.pdf)
 
 # Linux
 
