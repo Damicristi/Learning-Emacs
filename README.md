@@ -6,7 +6,7 @@
 
 # Latex
 
--Beamer Tutorial at [https://warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/wuensch/workshoplatex/beamertutorialkwuensch.pdf](here!)
+-Beamer Tutorial at [https://commands.physicslog.com/latex/beamertutorialkwuensch.pdf](here!)
 
 # Linux
 
