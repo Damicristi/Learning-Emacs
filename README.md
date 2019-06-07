@@ -96,6 +96,7 @@ pip install git+https://github.com/titipata/arxivpy
 ```
 
 - Function annotation 
+
 This allows us to attach metadata to functions describing their parameters and return values. Read at [PEP 3107](https://www.python.org/dev/peps/pep-3107/)
 For example:
 ```
