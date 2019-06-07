@@ -95,6 +95,18 @@ I strongly suggest to see "<a href="https://stackoverflow.com/questions/48093653
 pip install git+https://github.com/titipata/arxivpy
 ```
 
+- Function annotation 
+This allows us to attach metadata to functions describing their parameters and return values. Read at [PEP 3107](https://www.python.org/dev/peps/pep-3107/)
+For example:
+```
+>>> def kinetic_energy(m:'in KG', v:'in M/S')->'Joules': 
+        return 1/2*m*v**2
+>>> kinetic_energy.__annotations__
+{'return': 'Joules', 'v': 'in M/S', 'm': 'in KG'}
+>>> '{:,} {}'.format(kinetic_energy(20,3000), kinetic_energy.__annotations__['return'])
+'90,000,000.0 Joules'
+```
+
 # Wordpress
 
 - Over riding the comments count by Disqus count in wordpress site
