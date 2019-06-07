@@ -10,6 +10,12 @@
 
 # Linux
 
+- [How to remove Ubuntu 16.04 LTS or even earlier version completely?](https://www.physicslog.com/archive-post#remove_ubuntu)
+
+- [How to uninstall MATLAB in Ubuntu or other Linux distros?](https://www.physicslog.com/archive-post#uninstall_matlab)
+
+- [Mouse cursor moves slowly while copying a large file to USB](https://www.physicslog.com/archive-post/#mouse_cursor)
+
 - Fix Various Update Errors In Ubuntu 
 ```
 sudo rm -r /var/lib/apt/lists/*
@@ -40,6 +46,12 @@ $ sudo -i
 $ umount /dev/sdb1
 $ mkfs.vfat /dev/sdb1
 ```
+
+- Linux partition (or file system) went to read only mode
+```
+$ fsck.ext4 /dev/sdaX
+```
+where X represent the partition number. For me, it was 6. This is usually occurs due to OS crash.
 
 # Python 3
 
