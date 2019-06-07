@@ -22,15 +22,10 @@
         <a href="{{ '/' | absolute_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
-        <aside id="sidebar">
-         
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>         
  {% if site.github.is_project_page %}
           <a href="https://www.physicslog.com" class="button"><small>Visit my weblog</small> Physics Log</a>
         {% endif %}
-
-        </aside>
         </div>
     </header>
 
