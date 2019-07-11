@@ -222,3 +222,8 @@ It is better to create virtual environment to play with tensorflow because it ne
 conda create -n tf tensorflow
 activate tf
 ```
+
+- Install packages in virtual environment (for example: tf)
+```
+conda install -n tf PackageName
+```
