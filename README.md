@@ -212,3 +212,13 @@ filename.py
 ```
 !python3 filename.py
 ```
+
+# TensorFlow
+
+- Installation of Tensorflow using anaconda/Minianconda
+
+It is better to create virtual environment to play with tensorflow because it needs specific python version/packages. Use cmd in windows. I found that powershell won't work using activate tf.
+```
+conda create -n tf tensorflow
+activate tf
+```
