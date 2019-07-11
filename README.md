@@ -227,3 +227,13 @@ activate tf
 ```
 conda install -n tf PackageName
 ```
+
+- To see the list of virtual environments
+```
+conda env list
+```
+
+Or, you can also use
+```
+conda info --envs
+```
