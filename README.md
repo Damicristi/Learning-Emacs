@@ -238,3 +238,8 @@ Or, you can also use
 ```
 conda info --envs
 ```
+
+- To delete selected virtual environment(say selviren)
+```
+conda env remove -n selviren
+```
