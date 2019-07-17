@@ -243,3 +243,29 @@ conda info --envs
 ```
 conda env remove -n tf
 ```
+
+# Installing Miniconda/Anaconda
+
+- To install Miniconda/Anaconda
+
+Download it from its website then, in ubuntu
+```
+bash FILENAME.sh
+```
+
+- To use Python in zsh 
+```
+conda update conda
+conda init zsh
+```
+
+- To activate conda without showing (base)>
+```
+conda activate
+```
+
+or,
+```
+conda config --set changeps1 False
+```
+
