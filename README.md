@@ -51,6 +51,11 @@ $ fsck.ext4 /dev/sdaX
 ```
 where X represent the partition number. For me, it was 6. This is usually occurs due to OS crash.
 
+- To change shell from bash to zsh
+```
+chsh -s $(which zsh)
+```
+
 # Python 3
 
 - Use constructor from Base(i.e. Parant) class in the Child class, along with child's constructor.
