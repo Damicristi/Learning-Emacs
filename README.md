@@ -56,6 +56,12 @@ where X represent the partition number. For me, it was 6. This is usually occurs
 chsh -s $(which zsh)
 ```
 
+- Download all the folder and files from archive URL using wget
+```
+wget -m http://archive.ics.uci.edu/ml/machine-learning-databases/
+```
+
+
 # Python 3
 
 - Use constructor from Base(i.e. Parant) class in the Child class, along with child's constructor.
