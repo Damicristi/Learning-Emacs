@@ -79,6 +79,62 @@ chsh -s $(which zsh)
 wget -m http://archive.ics.uci.edu/ml/machine-learning-databases/
 ```
 
+- If your (Arch) Linux machine needs mount per login (after power ON your machine) then to solve it, follow this:
+
+1. Create a directory name data in mount path, by doing this:
+```
+$ sudo mkdir /mnt/data
+```
+
+2. Change the permission to drwxrw-rw-, by doing this: 
+```
+$ sudo chmod 766 /mnt/data
+```
+
+3. Change the owner, by doing this:
+```
+$ sudo chown $USER:$USER /mnt/data
+```
+
+4. Mount your desire Linux partition (/dev/sdXY) to mount path (/mnt/data), by doing this:
+```
+$ sudo mount /dev/sda3 /mnt/data
+```
+
+If you do not know which to mount then, to list partitions, you  either use fdisk or cfdisk. For most of the purpose cfdisk is flexible but for now, we use fdisk as:
+```
+$ sudo fdisk -l
+```
+
+5. We will edit fstab where it stores information of which partition to mount during login. Before that, we need to back up fstab file as:
+```
+$ sudo cp /etc/fstab /etc/fstab.backup
+```
+
+Now, find the UUID for sda3 by doing:
+```
+$ sudo blkid
+```
+
+Then, edit fstab by doing:
+```
+$ sudo nano /etc/fstab
+```
+
+In /etc/fstab file, we will add the following line:
+```
+UUID=your-sdXY-UUID-name /mnt/data add-partition-type relatime 0 2 
+```
+
+For example:
+```
+UUID=defec4d7-3e36-4938-b5de-b2016b2dee27 /mnt/data ntfs relatime 0 2 
+```
+
+6. Remount with new fstab, by doing:
+```
+$ sudo mount -a
+```
 
 # Python 3
 
