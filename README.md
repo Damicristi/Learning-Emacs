@@ -14,6 +14,18 @@
 
 - [Mouse cursor moves slowly while copying a large file to USB](https://www.physicslog.com/archive-post/#mouse_cursor)
 
+- Lock/Unlock root login
+
+It's better to lock/disable (-l) root login for security purpose in (Arch) Linux. You can do it by:
+```
+$ sudo passwd -l root
+```
+
+To unlock/enable (-u) root login:
+```
+$ sudo passwd -u root
+```
+
 - Fix Various Update Errors In Ubuntu 
 ```
 sudo rm -r /var/lib/apt/lists/*
